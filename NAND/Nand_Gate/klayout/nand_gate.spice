@@ -1,0 +1,8 @@
+** sch_path: /foss/designs/APIC/NAND_Gate/nand_gate.sch
+.subckt nand_gate Vdd in1 out in2 Vss
+*.PININFO in1:I out:O Vdd:I Vss:I in2:I
+M3 out in2 Vdd Vdd pfet_03v3 L=0.28u W=2.00u nf=1
+M1 out in1 net1 Vss nfet_03v3 L=1.00u W=0.42u nf=1
+M2 out in1 Vdd Vdd pfet_03v3 L=0.28u W=2.00u nf=1
+M4 net1 in2 Vss Vss nfet_03v3 L=1.00u W=0.42u nf=1
+.ends

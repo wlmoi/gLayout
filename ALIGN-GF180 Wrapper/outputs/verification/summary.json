@@ -1,0 +1,43 @@
+{
+  "design_name": "telescopic_ota",
+  "pdk_root": "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\align_gf180_verify_ixm3fvf7\\mock_align_pdk",
+  "source_pdk_dir": "C:\\Users\\William Anthony\\AppData\\Local\\Temp\\align_gf180_verify_ixm3fvf7\\mock_align_pdk\\sky130",
+  "gf180_pdk_dir": "C:\\Users\\William Anthony\\AppData\\Local\\Temp\\align_gf180_verify_ixm3fvf7\\mock_align_pdk\\gf180mcu",
+  "translated_netlist": "D:\\LinkedinProjects\\gLayout\\ALIGN-GF180 Wrapper\\telescopic_ota_sky130_example_gf180.sp",
+  "drc_report": "D:\\LinkedinProjects\\gLayout\\ALIGN-GF180 Wrapper\\outputs\\verification\\drc\\telescopic_ota\\telescopic_ota.rpt",
+  "lvs_report": "D:\\LinkedinProjects\\gLayout\\ALIGN-GF180 Wrapper\\outputs\\verification\\lvs\\telescopic_ota\\telescopic_ota_lvs.rpt",
+  "translation": {
+    "is_pass": true,
+    "sky130_hits": [],
+    "gf180_hits": [
+      "gf180mcu_fd_pr__nfet_10v5",
+      "gf180mcu_fd_pr__nfet_10v5",
+      "gf180mcu_fd_pr__nfet_10v5",
+      "gf180mcu_fd_pr__nfet_10v5",
+      "gf180mcu_fd_pr__pfet_10v5",
+      "gf180mcu_fd_pr__pfet_10v5",
+      "gf180mcu_fd_pr__pfet_10v5",
+      "gf180mcu_fd_pr__pfet_10v5",
+      "gf180mcu_fd_pr__nfet_10v5",
+      "gf180mcu_fd_pr__nfet_10v5"
+    ],
+    "conclusion": "Translated netlist uses GF180 primitives."
+  },
+  "drc": {
+    "is_pass": null,
+    "status": "skipped",
+    "report_path": null,
+    "raw_report": "",
+    "skipped": true,
+    "reason": "Magic not installed or no GDS provided."
+  },
+  "lvs": {
+    "is_pass": null,
+    "status": "skipped",
+    "report_path": null,
+    "raw_report": "",
+    "skipped": true,
+    "reason": "Netgen not installed or no GDS provided."
+  },
+  "overall_pass": true
+}

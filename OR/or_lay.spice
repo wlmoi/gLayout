@@ -1,0 +1,11 @@
+* NGSPICE file created from or.ext - technology: gf180mcuD
+
+.subckt or A B VP VN Vout
+X0 Vout a_90_132# VN VN nfet_03v3 ad=0.3008p pd=2.47u as=0.2997p ps=2.46u w=0.22u l=0.28u
+X1 a_90_594# A VP VP pfet_03v3 ad=0.2167p pd=2.19u as=0.3008p ps=2.47u w=0.22u l=0.28u
+X2 a_90_132# B a_90_594# VP pfet_03v3 ad=0.3019p pd=2.48u as=0.2167p ps=2.19u w=0.22u l=0.28u
+X3 a_90_132# A VN VN nfet_03v3 ad=0.2854p pd=2.33u as=0.27065p ps=2.21u w=0.22u l=0.28u
+X4 Vout a_90_132# VP VP pfet_03v3 ad=0.3019p pd=2.48u as=0.2986p ps=2.45u w=0.22u l=0.28u
+X5 a_90_132# B VN VN nfet_03v3 ad=0.2997p pd=2.46u as=0.3008p ps=2.47u w=0.22u l=0.28u
+.ends
+
